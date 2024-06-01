@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+body{
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjgyMi1hZXctMDJfMS5qcGc.jpg");
+    background-size: cover;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10rem;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    width: 27%;
+    margin: 2rem;
+    text-align: center;
+    background-color: white;
+}
+
+.container img{
+    width: 20.5rem;
+    height: 17rem;
+    padding: 1.3rem;
+}
+
+#top{
+    text-align: center;
+}
+.beige{
+  background-color: burlywood;
+  padding: 1rem;
+}
+.beige p{
+    font-size: 1.3rem;
+    color:white;
+}
+.beige h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
